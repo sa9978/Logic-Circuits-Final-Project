@@ -22,6 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="module2.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FourBitRippleCarryAdder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FourBitRippleCarryAdder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FourBitRippleCarryAdder.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX4x1.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX4x1.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX4x1.xst"/>
