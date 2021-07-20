@@ -26,13 +26,11 @@ module Multiplier4x4(
 		g14(w[13] , A[3] , B[2]),
 		g15(w[14] , A[3] , B[3]);
 		
-		assign R[0] = w[0];
 		wire [3:0]wa0 ;
 		wire[3:0]s0;
 		wire c40;
 		assign wa0[2:0] = w[2:0];
 		assign wa0[3] = 0;
-		//assign wb1[3:0] = w[6:3];
 		FourBitRippleCarryAdder f0(.A(wa0) , .B(w[6:3]) , .c(1'b0) , .S(s0) , .c4(c40) );
 		assign R[1] = s0[0];
 		

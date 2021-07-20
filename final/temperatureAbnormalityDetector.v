@@ -1,25 +1,18 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    10:41:35 07/20/2021 
-// Design Name: 
-// Module Name:    temperatureAbnormalityDetector 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+`timescale 1 ns/1 ns
 module temperatureAbnormalityDetector(
-    );
-
-
+ factotyBaseTemp,
+ factotyTempCoef,
+ tempSensorValue,
+ temperatureAbnormality);
+	input [4:0] factotyBaseTemp;
+	input [3:0] factotyTempCoef;
+	input [3:0] tempSensorValue;
+	output lowTempAbnormality;
+	output highTempAbnormality;
+	
+	wire [7:0] temperature;
+	temperatureCalculator t1(.factotyBaseTemp(factotyBaseTemp) , .factotyTempCoef(factotyTempCoef) , .tempSensorValue(tempSensorValue) , .temperature(temperature) );
+	
+	temperatureAnalyzer t2(.temperature(temperature) , .lowTempAbnormality(lowTempAbnormality) , .highTempAbnormality(highTempAbnormality) );
+	
 endmodule
