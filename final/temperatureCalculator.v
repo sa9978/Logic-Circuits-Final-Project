@@ -16,7 +16,7 @@ wire c;
 assign w2[7:5]=3'b000;
 assign w2[4:0]=factotyBaseTemp;
 
-Multiplier4x4 m(.A(tempSensorValue) , .B(tempSensorValue) , .R(w0) );
+Multiplier4x4 m(.A(tempSensorValue) , .B(factotyTempCoef) , .R(w0) );
 assign w1[7:5]=3'b000;
 assign w1[4:0]= w0[7:3];
 
