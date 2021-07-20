@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="final_logic.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CountingOnes_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FallingDetector_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GlycemiclndexCalculator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Parity_Error_Checker_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pressure_Analyzer_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator8_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pressureAbnormalityDetector_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1626750468" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1626750468">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1626778218" xil_pn:in_ck="5105473573803101314" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1626778218">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="AbsoluteCalculator.v"/>
+      <outfile xil_pn:name="CountingOnes.v"/>
+      <outfile xil_pn:name="FallingDetector.v"/>
+      <outfile xil_pn:name="GlycemiclndexCalculator.v"/>
+      <outfile xil_pn:name="Parity_Error_Checker.v"/>
+      <outfile xil_pn:name="Pressure_Analyzer.v"/>
+      <outfile xil_pn:name="adder_3bit.v"/>
+      <outfile xil_pn:name="comparator3.v"/>
+      <outfile xil_pn:name="comparator8.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+      <outfile xil_pn:name="pressureAbnormalityDetector.v"/>
+    </transform>
+  </transforms>
+
+</generated_project>
