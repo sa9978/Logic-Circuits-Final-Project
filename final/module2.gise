@@ -29,6 +29,9 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX4x1.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX4x1.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_3bit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="adder_3bit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="adder_3bit.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bloodAbnormalityDetector.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="bloodAbnormalityDetector.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="bloodAbnormalityDetector.xst"/>
@@ -38,6 +41,9 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder4x16.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder4x16.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder4x16.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="fulladder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="fulladder.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 

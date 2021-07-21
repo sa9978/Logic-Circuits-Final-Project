@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module decoder4x16(
 	input [3:0]i ,
 	output [15:0]o

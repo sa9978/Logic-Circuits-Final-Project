@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module MUX2x1(
   input in0 , in1 , sel,
   output y

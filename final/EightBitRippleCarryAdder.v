@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module EightBitRippleCarryAdder(
 input [7:0]A , [7:0]B ,
 	output [7:0]S , c8

@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module MUX4x1(
 	input a , b , c , d , [1:0]sel,
 	output y

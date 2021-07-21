@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module FourBitRippleCarryAdder(
 	input [3:0]A , [3:0]B , c,
 	output [3:0]S , c4

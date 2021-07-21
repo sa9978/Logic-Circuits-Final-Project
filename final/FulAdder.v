@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/1 ns
 module FulAdder(
 	input A , B , cl,
 	output S , C
