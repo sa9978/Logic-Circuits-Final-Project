@@ -1,6 +1,0 @@
-verilog isim_temp "fulladder.v"
-verilog isim_temp "adder_3bit.v"
-verilog isim_temp "CountingOnes.v"
-verilog isim_temp "AbsoluteCalculator.v"
-verilog isim_temp "GlycemiclndexCalculator.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
