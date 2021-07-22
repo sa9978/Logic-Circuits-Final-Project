@@ -16,11 +16,42 @@ module TBpressureAbnormalityDetector;
 
 	initial begin
 		// Initialize Inputs
-		pressureData = 0;
+		pressureData = 6'b000001;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-        
+		
+		pressureData=6'b001000;
+		
+      #100;
+		
+		pressureData=6'b010000;
+		
+		#100;
+		
+		pressureData=6'b010101;
+		
+		#100;
+		
+		pressureData=6'b011001;
+		
+		#100;
+		
+		pressureData=6'b100000;
+		
+		#100;
+		
+		pressureData=6'b100101;
+		
+		#100;
+		
+		pressureData=6'b101001;
+		
+		#100;
+		
+		pressureData=6'b110001;
+		
+		#100;
 		// Add stimulus here
 
 	end

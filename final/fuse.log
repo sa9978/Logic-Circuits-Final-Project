@@ -1,38 +1,23 @@
-Running: C:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector_isim_beh.exe -prj D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector_beh.prj work.TBtemperatureAbnormalityDetector work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/TBpressureAbnormalityDetector_isim_beh.exe -prj C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/TBpressureAbnormalityDetector_beh.prj work.TBpressureAbnormalityDetector work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 8
-Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/FulAdder.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/EightBitRippleCarryAdder.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/temperatureCalculator.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/temperatureAnalyzer.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/temperatureAbnormalityDetector.v" into library work
-Analyzing Verilog file "D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector.v" into library work
-Analyzing Verilog file "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/Pressure_Analyzer.v" into library work
+Analyzing Verilog file "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/Parity_Error_Checker.v" into library work
+Analyzing Verilog file "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/pressureAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/TBpressureAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 50: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 10: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 4-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 34: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 7: Size mismatch in connection of port <cl>. Formal port size is 1-bit while actual signal size is 4-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 42: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/EightBitRippleCarryAdder.v" Line 15: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "D:/term 4/final logic git/final-logic-project/final/temperatureCalculator.v" Line 24: Size mismatch in connection of port <c8>. Formal port size is 8-bit while actual signal size is 1-bit.
 Completed static elaboration
-Compiling module FulAdder
-Compiling module FourBitRippleCarryAdder
-Compiling module Multiplier4x4
-Compiling module EightBitRippleCarryAdder
-Compiling module temperatureCalculator
-Compiling module temperatureAnalyzer
-Compiling module temperatureAbnormalityDetector
-Compiling module TBtemperatureAbnormalityDetector
+Compiling module parityErrorChecker
+Compiling module pressureAnalyzer
+Compiling module pressureAbnormalityDetector
+Compiling module TBpressureAbnormalityDetector
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 9 Verilog Units
-Built simulation executable D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector_isim_beh.exe
-Fuse Memory Usage: 28492 KB
-Fuse CPU Usage: 358 ms
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/TBpressureAbnormalityDetector_isim_beh.exe
+Fuse Memory Usage: 28520 KB
+Fuse CPU Usage: 890 ms

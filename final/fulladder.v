@@ -1,23 +1,22 @@
 `timescale 1 ns/1 ns
 
-module fulladder(
- 	input a ,
+
+
+module full_adder(
+	input a ,
 	input b ,
 	input ci ,
 	output s ,
 	output co
-); 
-
-	/* write your code here */
+    );
+	wire w0,w1,w2;
 	
-	/* write your code here */
+	xor  g0(w0,a,b);
+	xor  g1(s,w0,ci);
 	
-	wire x,y,z;
-	xor g1(x,a,b);
-	xor g2(s,x,ci);
-	and g3(y,a,b);
-	and g4(z,x,ci);
-	or  g5(co,y,z);
+	and  g2(w2,a,b);
+	and  g3(w1,w0,ci);
+	
+	or   g4(co,w1,w2);
 
 endmodule
-

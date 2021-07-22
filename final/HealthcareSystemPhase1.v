@@ -21,7 +21,7 @@ output fallDetected );
 
 	bloodAbnormalityDetector o2(.bloodPH( bloodPH ) , .bloodType ( bloodType ) , .bloodAbnormality ( bloodAbnormality ));
  
-	FallingDetector o3(.fdSensorValue ( fdSensorValue ) ,.fdFactoryValue ( fdFactoryValue ) ,.fallDetected ( fallDetected ));
+	fallingDetector o3(.fdSensorValue ( fdSensorValue ) ,.fdFactoryValue ( fdFactoryValue ) ,.fallDetected ( fallDetected ));
  
 	temperatureAbnormalityDetector o4(.factotyBaseTemp ( factotyBaseTemp),.factotyTempCoef ( factotyTempCoef ) , .tempSensorValue ( tempSensorValue ) , .lowTempAbnormality( lowTempAbnormality ), .highTempAbnormality ( highTempAbnormality ));
  

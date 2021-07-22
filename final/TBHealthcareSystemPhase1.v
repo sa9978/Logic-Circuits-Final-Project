@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ns
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 
@@ -64,20 +64,41 @@ module TBHealthcareSystemPhase1;
 
 	initial begin
 		// Initialize Inputs
-		pressureData = 0;
-		bloodPH = 0;
-		bloodType = 0;
-		fdSensorValue = 0;
-		fdFactoryValue = 0;
-		bloodSensor = 0;
-		factotyBaseTemp = 0;
-		factotyTempCoef = 0;
-		tempSensorValue = 0;
+		pressureData=6'b001000;
+		bloodPH = 4'b0000;
+		bloodType = 3'b000;
+		fdSensorValue= 8'b00001000;
+		fdFactoryValue=8'b00100000;
+		factotyBaseTemp = 5'b10101;
+	   factotyTempCoef = 4'b1111;
+	   tempSensorValue = 4'b1100;
+		#10
+		
+		
+		pressureData=6'b010000;
+		bloodPH = 4'b0110;
+		bloodType = 3'b001;
+		fdSensorValue= 8'b00100000;
+      fdFactoryValue =8'b00100000;
+		factotyBaseTemp = 5'b10011;
+	   factotyTempCoef = 4'b1011;
+	   tempSensorValue = 4'b1010;
+		bloodSensor = 8'b10101010;
+		#10
+		
+		
+		pressureData=6'b010101;
+		bloodPH = 4'b0111;
+		bloodType = 3'b010;
+		fdSensorValue =8'b00101000;
+		fdFactoryValue=8'b00100000;
+		factotyBaseTemp = 5'b11011;
+	   factotyTempCoef = 4'b1111;
+	   tempSensorValue = 4'b1110;
+		bloodSensor = 8'b00010010;
+		#10
 
-		// Wait 100 ns for global reset to finish
-		#100;
-        
-		// Add stimulus here
+		$finish;
 
 	end
       

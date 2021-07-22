@@ -24,34 +24,52 @@
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BloodTypeclassification_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BloodTypeclassification_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContolUnit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EightBitRippleCarryAdder_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FourBitRippleCarryAdder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FourBitRippleCarryAdder.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="FourBitRippleCarryAdder.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FulAdder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GlycemiclndexCalculator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Heading_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="HealthcareSystemPhase1.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="HealthcareSystemPhase1.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HealthcareSystemPhase1.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="HealthcareSystemPhase1.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="HealthcareSystemPhase1.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="HealthcareSystemPhase1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HealthcareSystemPhase1_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="HealthcareSystemPhase1_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="HealthcareSystemPhase1_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX4x1.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX4x1.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX4x1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier4x4_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBBloodTypeclassification_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBBloodTypeclassification_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBEightBitRippleCarryAdder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBEightBitRippleCarryAdder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBGlycemiclndexCalculator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBGlycemiclndexCalculator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBHealthcareSystemPhase1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBMultiplier4x4_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBMultiplier4x4_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBbloodAbnormalityDetector_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBbloodAbnormalityDetector_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBbloodPHAnalyzer_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBbloodPHAnalyzer_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBfallingDetector_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBfallingDetector_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBpressureAbnormalityDetector_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBpressureAbnormalityDetector_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TBpressureAbnormalityDetector_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBpressureAbnormalityDetector_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBtemperatureAbnormalityDetector_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBtemperatureAbnormalityDetector_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TBtemperatureAbnormalityDetector_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBtemperatureAbnormalityDetector_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBtemperatureAnalyzer_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TBtemperatureAnalyzer_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TBtemperatureCalculator_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_3bit.prj"/>
@@ -74,6 +92,8 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temperatureCalculator_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -84,9 +104,71 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1626953039" xil_pn:in_ck="8765444384565973672" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1626953038">
+    <transform xil_pn:end_ts="1626984151" xil_pn:in_ck="7302377739830807615" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1626984151">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="AbsoluteCalculator.v"/>
+      <outfile xil_pn:name="ControlUnit.v"/>
+      <outfile xil_pn:name="CountingOnes.v"/>
+      <outfile xil_pn:name="EightBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="FallingDetector.v"/>
+      <outfile xil_pn:name="FourBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="FulAdder.v"/>
+      <outfile xil_pn:name="GlycemiclndexCalculator.v"/>
+      <outfile xil_pn:name="Heading.v"/>
+      <outfile xil_pn:name="HealthcareSystemPhase1.v"/>
+      <outfile xil_pn:name="MUX2x1.v"/>
+      <outfile xil_pn:name="MUX4x1.v"/>
+      <outfile xil_pn:name="Multiplier4x4.v"/>
+      <outfile xil_pn:name="Parity_Error_Checker.v"/>
+      <outfile xil_pn:name="Pressure_Analyzer.v"/>
+      <outfile xil_pn:name="TBBloodTypeclassification.v"/>
+      <outfile xil_pn:name="TBEightBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="TBGlycemiclndexCalculator.v"/>
+      <outfile xil_pn:name="TBHealthcareSystemPhase1.v"/>
+      <outfile xil_pn:name="TBMultiplier4x4.v"/>
+      <outfile xil_pn:name="TBbloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="TBbloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="TBfallingDetector.v"/>
+      <outfile xil_pn:name="TBpressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="TBtemperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="TBtemperatureAnalyzer.v"/>
+      <outfile xil_pn:name="TBtemperatureCalculator.v"/>
+      <outfile xil_pn:name="bloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="bloodPHAnalyze.v"/>
+      <outfile xil_pn:name="blood_type.v"/>
+      <outfile xil_pn:name="comparator3.v"/>
+      <outfile xil_pn:name="comparator8.v"/>
+      <outfile xil_pn:name="decoder4x16.v"/>
+      <outfile xil_pn:name="pressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="register.v"/>
+      <outfile xil_pn:name="temperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="temperatureAnalyzer.v"/>
+      <outfile xil_pn:name="temperatureCalculator.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1626976993" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="9148535928341965314" xil_pn:start_ts="1626976993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1626976993" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2342463120483895072" xil_pn:start_ts="1626976993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1626940056" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7261807107577081419" xil_pn:start_ts="1626940056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1626976993" xil_pn:in_ck="5769219775057795609" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1626976993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="AbsoluteCalculator.v"/>
       <outfile xil_pn:name="CountingOnes.v"/>
       <outfile xil_pn:name="EightBitRippleCarryAdder.v"/>
@@ -102,71 +184,52 @@
       <outfile xil_pn:name="Pressure_Analyzer.v"/>
       <outfile xil_pn:name="TBBloodTypeclassification.v"/>
       <outfile xil_pn:name="TBEightBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="TBGlycemiclndexCalculator.v"/>
       <outfile xil_pn:name="TBHealthcareSystemPhase1.v"/>
       <outfile xil_pn:name="TBMultiplier4x4.v"/>
       <outfile xil_pn:name="TBbloodAbnormalityDetector.v"/>
       <outfile xil_pn:name="TBbloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="TBfallingDetector.v"/>
       <outfile xil_pn:name="TBpressureAbnormalityDetector.v"/>
       <outfile xil_pn:name="TBtemperatureAnalyzer.v"/>
       <outfile xil_pn:name="TBtemperatureCalculator.v"/>
-      <outfile xil_pn:name="adder_3bit.v"/>
       <outfile xil_pn:name="bloodAbnormalityDetector.v"/>
       <outfile xil_pn:name="bloodPHAnalyze.v"/>
       <outfile xil_pn:name="blood_type.v"/>
       <outfile xil_pn:name="comparator3.v"/>
       <outfile xil_pn:name="comparator8.v"/>
       <outfile xil_pn:name="decoder4x16.v"/>
-      <outfile xil_pn:name="fulladder.v"/>
       <outfile xil_pn:name="pressureAbnormalityDetector.v"/>
       <outfile xil_pn:name="temperatureAbnormalityDetector.v"/>
       <outfile xil_pn:name="temperatureAnalyzer.v"/>
       <outfile xil_pn:name="temperatureCalculator.v"/>
     </transform>
-    <transform xil_pn:end_ts="1626949303" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2827971832346968311" xil_pn:start_ts="1626949303">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1626949303" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8260554020212159893" xil_pn:start_ts="1626949303">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1626940056" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7261807107577081419" xil_pn:start_ts="1626940056">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1626949558" xil_pn:in_ck="-2252265051314585222" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1626949558">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1626949560" xil_pn:in_ck="-2252265051314585222" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7612391288636181181" xil_pn:start_ts="1626949558">
+    <transform xil_pn:end_ts="1626976998" xil_pn:in_ck="5769219775057795609" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6830897780958364077" xil_pn:start_ts="1626976993">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="TBpressureAbnormalityDetector_beh.prj"/>
+      <outfile xil_pn:name="TBpressureAbnormalityDetector_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1626949560" xil_pn:in_ck="-8866285641435856668" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5329090260820169152" xil_pn:start_ts="1626949560">
+    <transform xil_pn:end_ts="1626976998" xil_pn:in_ck="-4175388243151305551" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6339391907598213482" xil_pn:start_ts="1626976998">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="TBpressureAbnormalityDetector_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1626942388" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1626942388">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -196,19 +259,16 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1626945117" xil_pn:in_ck="-1550931173143010775" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4707947588075212526" xil_pn:start_ts="1626945103">
+    <transform xil_pn:end_ts="1626963987" xil_pn:in_ck="5803990437391425946" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4707947588075212526" xil_pn:start_ts="1626963975">
       <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="HealthcareSystemPhase1.lso"/>
-      <outfile xil_pn:name="HealthcareSystemPhase1.prj"/>
-      <outfile xil_pn:name="HealthcareSystemPhase1.syr"/>
-      <outfile xil_pn:name="HealthcareSystemPhase1.xst"/>
-      <outfile xil_pn:name="HealthcareSystemPhase1_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1626942397" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1295239121464603718" xil_pn:start_ts="1626942397">
       <status xil_pn:value="SuccessfullyRun"/>

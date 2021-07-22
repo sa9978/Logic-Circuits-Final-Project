@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: HealthcareSystemPhase1.prj
 
@@ -105,55 +105,55 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\FulAdder.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FulAdder.v" into library work
 Parsing module <FulAdder>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\fulladder.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\fulladder.v" into library work
 Parsing module <fulladder>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FourBitRippleCarryAdder.v" into library work
 Parsing module <FourBitRippleCarryAdder>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\MUX4x1.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\MUX4x1.v" into library work
 Parsing module <MUX4x1>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Multiplier4x4.v" into library work
 Parsing module <Multiplier4x4>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\EightBitRippleCarryAdder.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\EightBitRippleCarryAdder.v" into library work
 Parsing module <EightBitRippleCarryAdder>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\decoder4x16.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\decoder4x16.v" into library work
 Parsing module <decoder4x16>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\comparator3.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\comparator3.v" into library work
 Parsing module <comparator3>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\adder_3bit.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\adder_3bit.v" into library work
 Parsing module <adder_3bit>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\temperatureCalculator.v" into library work
 Parsing module <temperatureCalculator>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\temperatureAnalyzer.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\temperatureAnalyzer.v" into library work
 Parsing module <temperatureAnalyzer>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\Pressure_Analyzer.v" into library work
-Parsing module <Pressure_Analyzer>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\Parity_Error_Checker.v" into library work
-Parsing module <Parity_Error_Checker>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\MUX2x1.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Pressure_Analyzer.v" into library work
+Parsing module <pressureAnalyzer>.
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Parity_Error_Checker.v" into library work
+Parsing module <parityErrorChecker>.
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\MUX2x1.v" into library work
 Parsing module <MUX2x1>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\CountingOnes.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\CountingOnes.v" into library work
 Parsing module <CountingOnes>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\comparator8.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\comparator8.v" into library work
 Parsing module <comparator8>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\blood_type.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\blood_type.v" into library work
 Parsing module <BloodTypeclassification>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\bloodPHAnalyze.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\bloodPHAnalyze.v" into library work
 Parsing module <bloodPHAnalyzer>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\AbsoluteCalculator.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\AbsoluteCalculator.v" into library work
 Parsing module <AbsoluteCalculator>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\temperatureAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\temperatureAbnormalityDetector.v" into library work
 Parsing module <temperatureAbnormalityDetector>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\pressureAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\pressureAbnormalityDetector.v" into library work
 Parsing module <pressureAbnormalityDetector>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\GlycemiclndexCalculator.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\GlycemiclndexCalculator.v" into library work
 Parsing module <GlycemiclndexCalculator>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" into library work
-Parsing module <FallingDetector>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\bloodAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FallingDetector.v" into library work
+Parsing module <fallingDetector>.
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\bloodAbnormalityDetector.v" into library work
 Parsing module <bloodAbnormalityDetector>.
-Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" into library work
+Analyzing Verilog file "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\HealthcareSystemPhase1.v" into library work
 Parsing module <HealthcareSystemPhase1>.
 
 =========================================================================
@@ -164,10 +164,10 @@ Elaborating module <HealthcareSystemPhase1>.
 
 Elaborating module <pressureAbnormalityDetector>.
 
-Elaborating module <Parity_Error_Checker>.
-WARNING:HDLCompiler:413 - "D:\term 4\final logic git\final-logic-project\final\Parity_Error_Checker.v" Line 9: Result of 32-bit expression is truncated to fit in 1-bit target.
+Elaborating module <parityErrorChecker>.
+WARNING:HDLCompiler:413 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Parity_Error_Checker.v" Line 12: Result of 32-bit expression is truncated to fit in 1-bit target.
 
-Elaborating module <Pressure_Analyzer>.
+Elaborating module <pressureAnalyzer>.
 
 Elaborating module <bloodAbnormalityDetector>.
 
@@ -180,19 +180,16 @@ Elaborating module <BloodTypeclassification>.
 Elaborating module <MUX4x1>.
 
 Elaborating module <MUX2x1>.
-WARNING:HDLCompiler:188 - "D:\term 4\final logic git\final-logic-project\final\MUX2x1.v" Line 9: Actual bit length 2 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\MUX2x1.v" Line 9: Actual bit length 2 differs from formal bit length 1
 
-Elaborating module <FallingDetector>.
+Elaborating module <fallingDetector>.
 
 Elaborating module <comparator8>.
 
 Elaborating module <comparator3>.
-WARNING:HDLCompiler:634 - "D:\term 4\final logic git\final-logic-project\final\comparator3.v" Line 55: Net <etotel> does not have a driver.
-WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\comparator8.v" Line 23: Assignment to w6 ignored, since the identifier is never used
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Size mismatch in connection of port <q>. Formal port size is 9-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Assignment to lt ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 8: Net <eq> does not have a driver.
-WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 23: Assignment to fallDetected ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\comparator3.v" Line 55: Net <etotel> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\comparator8.v" Line 24: Assignment to w6 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FallingDetector.v" Line 12: Assignment to lt ignored, since the identifier is never used
 
 Elaborating module <temperatureAbnormalityDetector>.
 
@@ -203,26 +200,26 @@ Elaborating module <Multiplier4x4>.
 Elaborating module <FourBitRippleCarryAdder>.
 
 Elaborating module <FulAdder>.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 7: Size mismatch in connection of port <cl>. Formal port size is 1-bit while actual signal size is 4-bit.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 10: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 4-bit.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 34: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 42: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 50: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FourBitRippleCarryAdder.v" Line 7: Size mismatch in connection of port <cl>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\FourBitRippleCarryAdder.v" Line 10: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Multiplier4x4.v" Line 34: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Multiplier4x4.v" Line 42: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\Multiplier4x4.v" Line 50: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
 
 Elaborating module <EightBitRippleCarryAdder>.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\EightBitRippleCarryAdder.v" Line 15: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Size mismatch in connection of port <c8>. Formal port size is 8-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Assignment to c ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\EightBitRippleCarryAdder.v" Line 15: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\temperatureCalculator.v" Line 24: Size mismatch in connection of port <c8>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\temperatureCalculator.v" Line 24: Assignment to c ignored, since the identifier is never used
 
 Elaborating module <temperatureAnalyzer>.
-ERROR:HDLCompiler:329 - "D:\term 4\final logic git\final-logic-project\final\GlycemiclndexCalculator.v" Line 10: Target <o> of concurrent assignment or output port connection should be a net type.
+ERROR:HDLCompiler:329 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\GlycemiclndexCalculator.v" Line 10: Target <o> of concurrent assignment or output port connection should be a net type.
 Module HealthcareSystemPhase1 remains a blackbox, due to errors in its contents
-WARNING:HDLCompiler:1499 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Empty module <HealthcareSystemPhase1> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\office\Desktop\llllllllll\final-logic-project-master\final\HealthcareSystemPhase1.v" Line 3: Empty module <HealthcareSystemPhase1> remains a black box.
 --> 
 
-Total memory usage is 4479636 kilobytes
+Total memory usage is 4478464 kilobytes
 
 Number of errors   :    1 (   0 filtered)
-Number of warnings :   17 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

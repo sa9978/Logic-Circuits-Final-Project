@@ -1,12 +1,16 @@
 `timescale 1 ns/1 ns
-module Parity_Error_Checker(
-input [5:0]Data,
-output error
-    );
+module parityErrorChecker(
+ data,
+ error);
+input [5:0] data;
+output error;
+
+
 wire z;
- xnor g1(z,Data[0],Data[1],Data[2],Data[3],Data[4]);
+ xnor g1(z,data[0],data[1],data[2],data[3],data[4]);
 	 
-	 assign error = (z==Data[5])? 0 : 1;
-	 
+	 assign error = (z==data[5])? 1 : 0;
+	
+
 
 endmodule

@@ -25,34 +25,34 @@
 module TBBloodTypeclassification;
 
 	// Inputs
-	reg [2:0] blood_type;
+	reg [2:0] bloodType;
 
 	// Outputs
 	wire blood_output;
 
 	// Instantiate the Unit Under Test (UUT)
 	BloodTypeclassification uut (
-		.blood_type(blood_type), 
+		.bloodType(bloodType), 
 		.blood_output(blood_output)
 	);
 
 	initial begin
 		// Initialize Inputs
-		blood_type = 3'b000;
+		bloodType = 3'b000;
 		#20
-		blood_type = 3'b001;
+		bloodType = 3'b001;
 		#20
-		blood_type = 3'b010;
+		bloodType = 3'b010;
 		#20
-		blood_type = 3'b011;
+		bloodType = 3'b011;
 		#20
-		blood_type = 3'b100;
+		bloodType = 3'b100;
 		#20
-		blood_type = 3'b101;
+		bloodType = 3'b101;
 		#20
-		blood_type = 3'b110;
+		bloodType = 3'b110;
 		#20
-		blood_type = 3'b111;
+		bloodType = 3'b111;
 		#20
 		$finish;
 		end

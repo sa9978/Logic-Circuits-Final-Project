@@ -1,0 +1,5 @@
+verilog work "Pressure_Analyzer.v"
+verilog work "Parity_Error_Checker.v"
+verilog work "pressureAbnormalityDetector.v"
+verilog work "TBpressureAbnormalityDetector.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

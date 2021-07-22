@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   14:45:00 07/22/2021
+// Create Date:   00:27:48 07/23/2021
 // Design Name:   temperatureAbnormalityDetector
 // Module Name:   D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector.v
 // Project Name:  module2
@@ -43,24 +43,18 @@ module TBtemperatureAbnormalityDetector;
 	);
 
 	initial begin
-		// Initialize Inputs
-	factotyBaseTemp = 5'b11111;
+	factotyBaseTemp = 5'b10101;
 	factotyTempCoef = 4'b1111;
-	tempSensorValue = 4'b1111;
+	tempSensorValue = 4'b1100;
 	#10
 	
-	factotyBaseTemp = 5'b10000;
-	factotyTempCoef = 4'b1000;
-	tempSensorValue = 4'b1000;
+	factotyBaseTemp = 5'b10011;
+	factotyTempCoef = 4'b1011;
+	tempSensorValue = 4'b1010;
 	#10
 	
-	factotyBaseTemp = 5'b00000;
-	factotyTempCoef = 4'b0000;
-	tempSensorValue = 4'b0000;
-	#10
-
-		
 	$finish;
+
 	end
       
 endmodule

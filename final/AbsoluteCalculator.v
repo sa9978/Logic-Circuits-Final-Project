@@ -3,6 +3,6 @@ module AbsoluteCalculator(
 input [7:0]bloodSensor,
 output[7:0]o
     );
-assign o =bloodSensor[7] ? -bloodSensor : bloodSensor;
+assign o = bloodSensor[7]?(128-bloodSensor[6:0]):bloodSensor;
 
 endmodule

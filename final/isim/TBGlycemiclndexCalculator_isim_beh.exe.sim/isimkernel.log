@@ -1,0 +1,28 @@
+Command line:
+   TBGlycemiclndexCalculator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53624
+
+Thu Jul 22 10:49:35 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5153.73 Meg
+
+ Total Signals          : 21
+ Total Nets             : 33
+ Total Signal Drivers   : 8
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 10
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 121
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5153.73 Meg
+
+Thu Jul 22 10:49:55 2021
+

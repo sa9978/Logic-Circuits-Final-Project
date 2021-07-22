@@ -1,0 +1,3 @@
+verilog isim_temp "temperatureAnalyzer.v"
+verilog isim_temp "TBtemperatureAnalyzer.v"
+verilog isim_temp "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"
