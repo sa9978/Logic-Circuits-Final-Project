@@ -13,7 +13,8 @@ input [3:0] tempSensorValue,
 output presureAbnormality,
 output bloodAbnormality,
 output [3:0] glycemicIndex,
-output lowTempAbnormality , highTempAbnormality);
+output lowTempAbnormality , highTempAbnormality,
+output fallDetected );
 
 
 	pressureAbnormalityDetector o1 (.pressureData ( pressureData ) , .presureAbnormality ( presureAbnormality ));
