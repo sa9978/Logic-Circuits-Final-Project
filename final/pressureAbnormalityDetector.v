@@ -5,8 +5,8 @@ output presureAbnormality
     );
 wire a,b;
 
- Parity_Error_Checker s(pressureData,a);
- Pressure_Analyzer(pressureData,b);
+ Parity_Error_Checker s1(pressureData,a);
+ Pressure_Analyzer s2(pressureData,b);
  assign presureAbnormality = a&b ;
   
 endmodule

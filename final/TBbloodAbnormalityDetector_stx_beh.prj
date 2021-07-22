@@ -1,0 +1,8 @@
+verilog isim_temp "MUX4x1.v"
+verilog isim_temp "decoder4x16.v"
+verilog isim_temp "MUX2x1.v"
+verilog isim_temp "blood_type.v"
+verilog isim_temp "bloodPHAnalyze.v"
+verilog isim_temp "bloodAbnormalityDetector.v"
+verilog isim_temp "TBbloodAbnormalityDetector.v"
+verilog isim_temp "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

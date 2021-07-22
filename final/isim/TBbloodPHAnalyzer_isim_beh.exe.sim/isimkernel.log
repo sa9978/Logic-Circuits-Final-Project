@@ -1,0 +1,28 @@
+Command line:
+   TBbloodPHAnalyzer_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59269
+
+Thu Jul 22 13:29:21 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.14 Meg
+
+ Total Signals          : 27
+ Total Nets             : 71
+ Total Signal Drivers   : 28
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 30
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 155
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5154.14 Meg
+
+Thu Jul 22 13:29:33 2021
+

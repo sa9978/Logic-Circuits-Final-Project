@@ -1,10 +1,10 @@
 `timescale 1 ns/1 ns
 
 module BloodTypeclassification(
-	input [2:0]blood_type,
-	output blood_output
+	input [2:0]bloodType,
+	output bloodClass
     );
-	 MUX4x1 m( .a(blood_type[2]) , .b( blood_type[2]) ,.c( blood_type[2]) , .d (blood_type[2]) , .sel (blood_type[1:0]) , .y( blood_output ));
+	 MUX4x1 m( .a(bloodType[2]) , .b( bloodType[2]) ,.c( bloodType[2]) , .d (bloodType[2]) , .sel (bloodType[1:0]) , .y( bloodClass ));
 	 // a , b , c , d , sel , y
 
 

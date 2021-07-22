@@ -1,7 +1,7 @@
 `timescale 1 ns/1 ns
 module temperatureAnalyzer(
  temperature,
- temperatureAbnormality);
+ lowTempAbnormality , highTempAbnormality);
 input [7:0] temperature;
 output lowTempAbnormality;
 output highTempAbnormality;

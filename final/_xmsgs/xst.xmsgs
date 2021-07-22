@@ -5,5 +5,23 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="53" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 14: &lt;<arg fmt="%s" index="1">fallDetected</arg>&gt; is not a port.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 15: &lt;<arg fmt="%s" index="1">temperatureAbnormality</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="715" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 21: Port <arg fmt="%s" index="1">bloodSensor</arg> is not defined
+</msg>
+
+<msg type="error" file="HDLCompiler" num="715" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 27: Port <arg fmt="%s" index="1">glycemicIndex</arg> is not defined
+</msg>
+
+<msg type="error" file="HDLCompiler" num="715" delta="old" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 28: Port <arg fmt="%s" index="1">lowTempAbnormality</arg> is not defined
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Module &lt;<arg fmt="%s" index="1">HealthcareSystemPhase1</arg>&gt; ignored due to previous errors.
+</msg>
+
 </messages>
 
