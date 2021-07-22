@@ -5,22 +5,58 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="53" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 14: &lt;<arg fmt="%s" index="1">fallDetected</arg>&gt; is not a port.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\term 4\final logic git\final-logic-project\final\Parity_Error_Checker.v" Line 9: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 15: &lt;<arg fmt="%s" index="1">temperatureAbnormality</arg>&gt; is not declared.
+<msg type="warning" file="HDLCompiler" num="188" delta="new" >"D:\term 4\final logic git\final-logic-project\final\MUX2x1.v" Line 9: Actual bit length <arg fmt="%d" index="1">2</arg> differs from formal bit length <arg fmt="%d" index="2">1</arg>
 </msg>
 
-<msg type="error" file="HDLCompiler" num="715" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 21: Port <arg fmt="%s" index="1">bloodSensor</arg> is not defined
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\term 4\final logic git\final-logic-project\final\comparator3.v" Line 55: Net &lt;<arg fmt="%s" index="1">etotel</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="715" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 27: Port <arg fmt="%s" index="1">glycemicIndex</arg> is not defined
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\term 4\final logic git\final-logic-project\final\comparator8.v" Line 23: Assignment to <arg fmt="%s" index="1">w6</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="error" file="HDLCompiler" num="715" delta="old" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 28: Port <arg fmt="%s" index="1">lowTempAbnormality</arg> is not defined
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">q</arg>&gt;. Formal port size is <arg fmt="%d" index="2">9</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="598" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Module &lt;<arg fmt="%s" index="1">HealthcareSystemPhase1</arg>&gt; ignored due to previous errors.
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Assignment to <arg fmt="%s" index="1">lt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 8: Net &lt;<arg fmt="%s" index="1">eq</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 23: Assignment to <arg fmt="%s" index="1">fallDetected</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 7: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cl</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 10: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">C</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 42: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 50: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\EightBitRippleCarryAdder.v" Line 15: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">C</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c8</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Assignment to <arg fmt="%s" index="1">c</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"D:\term 4\final logic git\final-logic-project\final\GlycemiclndexCalculator.v" Line 10: Target &lt;<arg fmt="%s" index="1">o</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Empty module &lt;<arg fmt="%s" index="1">HealthcareSystemPhase1</arg>&gt; remains a black box.
 </msg>
 
 </messages>

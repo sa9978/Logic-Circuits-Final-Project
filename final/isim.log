@@ -1,2 +1,25 @@
 ISim log file
-Running: D:\term 4\final logic git\final-logic-project\final\TBbloodAbnormalityDetector_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/term 4/final logic git/final-logic-project/final/TBbloodAbnormalityDetector_isim_beh.wdb 
+Running: D:\term 4\final logic git\final-logic-project\final\TBtemperatureAbnormalityDetector_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 3.  For instance f0/f0/, width 1 of formal port cl is not equal to width 4 of actual signal c.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 4.  For instance f0/f3/, width 1 of formal port C is not equal to width 4 of actual signal c4.
+WARNING:  For instance m/f0/, width 4 of formal port c is not equal to width 1 of actual constant.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 31.  For instance m/f0/, width 4 of formal port c4 is not equal to width 1 of actual signal c40.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 3.  For instance f1/f0/, width 1 of formal port cl is not equal to width 4 of actual signal c.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 4.  For instance f1/f3/, width 1 of formal port C is not equal to width 4 of actual signal c4.
+WARNING:  For instance m/f1/, width 4 of formal port c is not equal to width 1 of actual constant.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 39.  For instance m/f1/, width 4 of formal port c4 is not equal to width 1 of actual signal c41.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 3.  For instance f2/f0/, width 1 of formal port cl is not equal to width 4 of actual signal c.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/FourBitRippleCarryAdder.v" Line 4.  For instance f2/f3/, width 1 of formal port C is not equal to width 4 of actual signal c4.
+WARNING:  For instance m/f2/, width 4 of formal port c is not equal to width 1 of actual constant.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/Multiplier4x4.v" Line 47.  For instance m/f2/, width 4 of formal port c4 is not equal to width 1 of actual signal c42.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/EightBitRippleCarryAdder.v" Line 4.  For instance e/f7/, width 1 of formal port C is not equal to width 8 of actual signal c8.
+WARNING: File "D:/term 4/final logic git/final-logic-project/final/temperatureCalculator.v" Line 15.  For instance t1/e/, width 8 of formal port c8 is not equal to width 1 of actual signal c.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 30 ns : File "D:/term 4/final logic git/final-logic-project/final/TBtemperatureAbnormalityDetector.v" Line 63

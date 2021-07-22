@@ -48,7 +48,7 @@ module Multiplier4x4(
 		assign wa2[2:0] = s1[3:1];
 		assign wa2[3] = c41;
 		FourBitRippleCarryAdder f2(.A(wa2) , .B(w[14:11]) , .c(1'b0) , .S(s2) , .c4(c42) );
-		assign R[3:6] = s2[3:0];
+		assign R[6:3] = s2[3:0];
 		assign R[7] = c42;		
 	
 endmodule

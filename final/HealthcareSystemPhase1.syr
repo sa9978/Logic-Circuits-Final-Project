@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: HealthcareSystemPhase1.prj
 
@@ -155,18 +155,74 @@ Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\bloo
 Parsing module <bloodAbnormalityDetector>.
 Analyzing Verilog file "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" into library work
 Parsing module <HealthcareSystemPhase1>.
-ERROR:HDLCompiler:53 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 14: <fallDetected> is not a port.
-ERROR:HDLCompiler:69 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 15: <temperatureAbnormality> is not declared.
-ERROR:HDLCompiler:715 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 21: Port bloodSensor is not defined
-ERROR:HDLCompiler:715 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 27: Port glycemicIndex is not defined
-ERROR:HDLCompiler:715 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 28: Port lowTempAbnormality is not defined
-ERROR:HDLCompiler:598 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Module <HealthcareSystemPhase1> ignored due to previous errors.
-Verilog file D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v ignored due to errors
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <HealthcareSystemPhase1>.
+
+Elaborating module <pressureAbnormalityDetector>.
+
+Elaborating module <Parity_Error_Checker>.
+WARNING:HDLCompiler:413 - "D:\term 4\final logic git\final-logic-project\final\Parity_Error_Checker.v" Line 9: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <Pressure_Analyzer>.
+
+Elaborating module <bloodAbnormalityDetector>.
+
+Elaborating module <bloodPHAnalyzer>.
+
+Elaborating module <decoder4x16>.
+
+Elaborating module <BloodTypeclassification>.
+
+Elaborating module <MUX4x1>.
+
+Elaborating module <MUX2x1>.
+WARNING:HDLCompiler:188 - "D:\term 4\final logic git\final-logic-project\final\MUX2x1.v" Line 9: Actual bit length 2 differs from formal bit length 1
+
+Elaborating module <FallingDetector>.
+
+Elaborating module <comparator8>.
+
+Elaborating module <comparator3>.
+WARNING:HDLCompiler:634 - "D:\term 4\final logic git\final-logic-project\final\comparator3.v" Line 55: Net <etotel> does not have a driver.
+WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\comparator8.v" Line 23: Assignment to w6 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Size mismatch in connection of port <q>. Formal port size is 9-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 14: Assignment to lt ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "D:\term 4\final logic git\final-logic-project\final\FallingDetector.v" Line 8: Net <eq> does not have a driver.
+WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 23: Assignment to fallDetected ignored, since the identifier is never used
+
+Elaborating module <temperatureAbnormalityDetector>.
+
+Elaborating module <temperatureCalculator>.
+
+Elaborating module <Multiplier4x4>.
+
+Elaborating module <FourBitRippleCarryAdder>.
+
+Elaborating module <FulAdder>.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 7: Size mismatch in connection of port <cl>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\FourBitRippleCarryAdder.v" Line 10: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 34: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 42: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\Multiplier4x4.v" Line 50: Size mismatch in connection of port <c>. Formal port size is 4-bit while actual signal size is 1-bit.
+
+Elaborating module <EightBitRippleCarryAdder>.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\EightBitRippleCarryAdder.v" Line 15: Size mismatch in connection of port <C>. Formal port size is 1-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Size mismatch in connection of port <c8>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "D:\term 4\final logic git\final-logic-project\final\temperatureCalculator.v" Line 24: Assignment to c ignored, since the identifier is never used
+
+Elaborating module <temperatureAnalyzer>.
+ERROR:HDLCompiler:329 - "D:\term 4\final logic git\final-logic-project\final\GlycemiclndexCalculator.v" Line 10: Target <o> of concurrent assignment or output port connection should be a net type.
+Module HealthcareSystemPhase1 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "D:\term 4\final logic git\final-logic-project\final\HealthcareSystemPhase1.v" Line 3: Empty module <HealthcareSystemPhase1> remains a black box.
 --> 
 
-Total memory usage is 4478676 kilobytes
+Total memory usage is 4479636 kilobytes
 
-Number of errors   :    6 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

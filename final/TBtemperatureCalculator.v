@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   13:16:24 07/22/2021
+// Create Date:   14:26:35 07/22/2021
 // Design Name:   temperatureCalculator
 // Module Name:   D:/term 4/final logic git/final-logic-project/final/TBtemperatureCalculator.v
 // Project Name:  module2
@@ -41,16 +41,17 @@ module TBtemperatureCalculator;
 	);
 
 	initial begin
-		// Initialize Inputs
-		factotyBaseTemp = 0;
-		factotyTempCoef = 0;
-		tempSensorValue = 0;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-        
-		// Add stimulus here
-
+	factotyBaseTemp = 5'b10101;
+	factotyTempCoef = 4'b1111;
+	tempSensorValue = 4'b1100;
+	#10
+	
+	factotyBaseTemp = 5'b10011;
+	factotyTempCoef = 4'b1011;
+	tempSensorValue = 4'b1010;
+	#10
+	
+	$finish;
 	end
       
 endmodule
