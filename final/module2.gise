@@ -27,6 +27,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FourBitRippleCarryAdder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FourBitRippleCarryAdder.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="FourBitRippleCarryAdder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FulAdder_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="HealthcareSystemPhase1.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="HealthcareSystemPhase1.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HealthcareSystemPhase1.prj"/>
@@ -83,23 +84,53 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1626949558" xil_pn:in_ck="-2252265051314585222" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1626949558">
+    <transform xil_pn:end_ts="1626953039" xil_pn:in_ck="8765444384565973672" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1626953038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="AbsoluteCalculator.v"/>
+      <outfile xil_pn:name="CountingOnes.v"/>
+      <outfile xil_pn:name="EightBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="FallingDetector.v"/>
+      <outfile xil_pn:name="FourBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="FulAdder.v"/>
+      <outfile xil_pn:name="GlycemiclndexCalculator.v"/>
+      <outfile xil_pn:name="HealthcareSystemPhase1.v"/>
+      <outfile xil_pn:name="MUX2x1.v"/>
+      <outfile xil_pn:name="MUX4x1.v"/>
+      <outfile xil_pn:name="Multiplier4x4.v"/>
+      <outfile xil_pn:name="Parity_Error_Checker.v"/>
+      <outfile xil_pn:name="Pressure_Analyzer.v"/>
+      <outfile xil_pn:name="TBBloodTypeclassification.v"/>
+      <outfile xil_pn:name="TBEightBitRippleCarryAdder.v"/>
+      <outfile xil_pn:name="TBHealthcareSystemPhase1.v"/>
+      <outfile xil_pn:name="TBMultiplier4x4.v"/>
+      <outfile xil_pn:name="TBbloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="TBbloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="TBpressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="TBtemperatureAnalyzer.v"/>
+      <outfile xil_pn:name="TBtemperatureCalculator.v"/>
+      <outfile xil_pn:name="adder_3bit.v"/>
+      <outfile xil_pn:name="bloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="bloodPHAnalyze.v"/>
+      <outfile xil_pn:name="blood_type.v"/>
+      <outfile xil_pn:name="comparator3.v"/>
+      <outfile xil_pn:name="comparator8.v"/>
+      <outfile xil_pn:name="decoder4x16.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+      <outfile xil_pn:name="pressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="temperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="temperatureAnalyzer.v"/>
+      <outfile xil_pn:name="temperatureCalculator.v"/>
     </transform>
     <transform xil_pn:end_ts="1626949303" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2827971832346968311" xil_pn:start_ts="1626949303">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1626949303" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8260554020212159893" xil_pn:start_ts="1626949303">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1626940056" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7261807107577081419" xil_pn:start_ts="1626940056">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -111,12 +142,13 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1626949560" xil_pn:in_ck="-2252265051314585222" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7612391288636181181" xil_pn:start_ts="1626949558">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>

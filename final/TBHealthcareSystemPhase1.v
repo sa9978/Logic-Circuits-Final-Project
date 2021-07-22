@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   15:01:16 07/22/2021
+// Create Date:   15:53:50 07/22/2021
 // Design Name:   HealthcareSystemPhase1
 // Module Name:   D:/term 4/final logic git/final-logic-project/final/TBHealthcareSystemPhase1.v
 // Project Name:  module2
@@ -41,6 +41,7 @@ module TBHealthcareSystemPhase1;
 	wire [3:0] glycemicIndex;
 	wire lowTempAbnormality;
 	wire highTempAbnormality;
+	wire fallDetected;
 
 	// Instantiate the Unit Under Test (UUT)
 	HealthcareSystemPhase1 uut (
@@ -57,7 +58,8 @@ module TBHealthcareSystemPhase1;
 		.bloodAbnormality(bloodAbnormality), 
 		.glycemicIndex(glycemicIndex), 
 		.lowTempAbnormality(lowTempAbnormality), 
-		.highTempAbnormality(highTempAbnormality)
+		.highTempAbnormality(highTempAbnormality), 
+		.fallDetected(fallDetected)
 	);
 
 	initial begin
