@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/CountingOnes.v";
+static const char *ng0 = "C:/Users/office/Desktop/jjjjjjj/final-logic-project-master/final/CountingOnes.v";
 static int ng1[] = {0, 0};
 static int ng2[] = {1, 0};
 static int ng3[] = {2, 0};
@@ -33,7 +33,7 @@ static int ng8[] = {7, 0};
 
 
 
-static void Cont_101_0(char *t0)
+static void Cont_11_0(char *t0)
 {
     char t4[8];
     char t10[8];
@@ -113,7 +113,7 @@ LAB0:    t1 = (t0 + 2368U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(101, ng0);
+LAB2:    xsi_set_current_line(11, ng0);
     t2 = (t0 + 1048U);
     t3 = *((char **)t2);
     t2 = (t0 + 1008U);
@@ -212,7 +212,7 @@ LAB1:    return;
 
 extern void work_m_00000000000053119388_2054823067_init()
 {
-	static char *pe[] = {(void *)Cont_101_0};
+	static char *pe[] = {(void *)Cont_11_0};
 	xsi_register_didat("work_m_00000000000053119388_2054823067", "isim/TBGlycemiclndexCalculator_isim_beh.exe.sim/work/m_00000000000053119388_2054823067.didat");
 	xsi_register_executes(pe);
 }

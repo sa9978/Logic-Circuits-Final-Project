@@ -2,14 +2,14 @@ Command line:
    TBpressureAbnormalityDetector_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53675
+     -socket  51973
 
-Thu Jul 22 11:03:21 2021
+Thu Jul 22 18:02:49 2021
 
 
  Elaboration Time: 0.09375 sec
 
- Current Memory Usage: 5153.78 Meg
+ Current Memory Usage: 5154.34 Meg
 
  Total Signals          : 29
  Total Nets             : 38
@@ -20,9 +20,9 @@ Thu Jul 22 11:03:21 2021
  Total Traceable Variables  : 19
  Total Scalar Nets and Variables : 124
 
- Total Simulation Time: 0.125 sec
+ Total Simulation Time: 0.109375 sec
 
- Current Memory Usage: 5153.78 Meg
+ Current Memory Usage: 5154.34 Meg
 
-Thu Jul 22 11:03:33 2021
+Thu Jul 22 18:02:53 2021
 

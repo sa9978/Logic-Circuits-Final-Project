@@ -1,0 +1,28 @@
+Command line:
+   TBHealthcareSystemPhase1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51993
+
+Thu Jul 22 18:04:44 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5154.41 Meg
+
+ Total Signals          : 449
+ Total Nets             : 444
+ Total Signal Drivers   : 295
+ Total Blocks           : 48
+ Total Primitive Blocks : 32
+ Total Processes        : 297
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 574
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 5154.41 Meg
+
+Thu Jul 22 18:05:08 2021
+

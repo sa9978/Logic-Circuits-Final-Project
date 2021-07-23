@@ -27,12 +27,12 @@ module register (
 	output [6:0] qout
 );
 
-	reg [6:0] qout;
+   reg [6:0] qout;
 	
 	always @ (posedge clk or negedge rst)
 		begin 
 			if(rst == 0)
-				qout <= 4'b0000000;
+				qout <= 8'b00000000;
 			else if(en)
 				qout <= din;
 		end

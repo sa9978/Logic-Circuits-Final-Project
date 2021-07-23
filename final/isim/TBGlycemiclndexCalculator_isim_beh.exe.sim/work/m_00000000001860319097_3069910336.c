@@ -21,19 +21,18 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/office/Desktop/llllllllll/final-logic-project-master/final/AbsoluteCalculator.v";
-static int ng1[] = {128, 0};
+static const char *ng0 = "C:/Users/office/Desktop/jjjjjjj/final-logic-project-master/final/AbsoluteCalculator.v";
+static unsigned int ng1[] = {1U, 0U};
 
 
 
-static void Cont_6_0(char *t0)
+static void Cont_8_0(char *t0)
 {
     char t3[8];
     char t4[8];
     char t6[8];
-    char t26[8];
-    char t36[8];
-    char t43[8];
+    char t25[8];
+    char t38[8];
     char *t1;
     char *t2;
     char *t5;
@@ -55,35 +54,37 @@ static void Cont_6_0(char *t0)
     unsigned int t22;
     unsigned int t23;
     unsigned int t24;
-    char *t25;
+    char *t26;
     char *t27;
     char *t28;
-    char *t29;
+    unsigned int t29;
     unsigned int t30;
     unsigned int t31;
     unsigned int t32;
     unsigned int t33;
     unsigned int t34;
     unsigned int t35;
-    unsigned int t37;
-    unsigned int t38;
+    unsigned int t36;
+    char *t37;
     unsigned int t39;
     unsigned int t40;
-    char *t41;
-    char *t42;
+    unsigned int t41;
+    unsigned int t42;
+    char *t43;
     char *t44;
     char *t45;
     char *t46;
     char *t47;
-    unsigned int t48;
+    char *t48;
     unsigned int t49;
-    char *t50;
-    unsigned int t51;
+    unsigned int t50;
+    char *t51;
     unsigned int t52;
-    char *t53;
-    unsigned int t54;
+    unsigned int t53;
+    char *t54;
     unsigned int t55;
-    char *t56;
+    unsigned int t56;
+    char *t57;
 
 LAB0:    t1 = (t0 + 2368U);
     t2 = *((char **)t1);
@@ -92,7 +93,7 @@ LAB0:    t1 = (t0 + 2368U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(6, ng0);
+LAB2:    xsi_set_current_line(8, ng0);
     t2 = (t0 + 1048U);
     t5 = *((char **)t2);
     memset(t6, 0, 8);
@@ -126,11 +127,11 @@ LAB7:    t21 = (t4 + 4);
     if (t24 > 0)
         goto LAB8;
 
-LAB9:    t37 = *((unsigned int *)t4);
-    t38 = (~(t37));
-    t39 = *((unsigned int *)t21);
-    t40 = (t38 || t39);
-    if (t40 > 0)
+LAB9:    t39 = *((unsigned int *)t4);
+    t40 = (~(t39));
+    t41 = *((unsigned int *)t21);
+    t42 = (t40 || t41);
+    if (t42 > 0)
         goto LAB10;
 
 LAB11:    if (*((unsigned int *)t21) > 0)
@@ -139,29 +140,29 @@ LAB11:    if (*((unsigned int *)t21) > 0)
 LAB13:    if (*((unsigned int *)t4) > 0)
         goto LAB14;
 
-LAB15:    memcpy(t3, t43, 8);
+LAB15:    memcpy(t3, t44, 8);
 
-LAB16:    t41 = (t0 + 2768);
-    t44 = (t41 + 56U);
-    t45 = *((char **)t44);
-    t46 = (t45 + 56U);
-    t47 = *((char **)t46);
-    memset(t47, 0, 8);
-    t48 = 255U;
-    t49 = t48;
-    t50 = (t3 + 4);
-    t51 = *((unsigned int *)t3);
-    t48 = (t48 & t51);
-    t52 = *((unsigned int *)t50);
+LAB16:    t43 = (t0 + 2768);
+    t45 = (t43 + 56U);
+    t46 = *((char **)t45);
+    t47 = (t46 + 56U);
+    t48 = *((char **)t47);
+    memset(t48, 0, 8);
+    t49 = 255U;
+    t50 = t49;
+    t51 = (t3 + 4);
+    t52 = *((unsigned int *)t3);
     t49 = (t49 & t52);
-    t53 = (t47 + 4);
-    t54 = *((unsigned int *)t47);
-    *((unsigned int *)t47) = (t54 | t48);
-    t55 = *((unsigned int *)t53);
-    *((unsigned int *)t53) = (t55 | t49);
-    xsi_driver_vfirst_trans(t41, 0, 7);
-    t56 = (t0 + 2688);
-    *((int *)t56) = 1;
+    t53 = *((unsigned int *)t51);
+    t50 = (t50 & t53);
+    t54 = (t48 + 4);
+    t55 = *((unsigned int *)t48);
+    *((unsigned int *)t48) = (t55 | t49);
+    t56 = *((unsigned int *)t54);
+    *((unsigned int *)t54) = (t56 | t50);
+    xsi_driver_vfirst_trans(t43, 0, 7);
+    t57 = (t0 + 2688);
+    *((int *)t57) = 1;
 
 LAB1:    return;
 LAB4:    *((unsigned int *)t4) = 1;
@@ -172,43 +173,51 @@ LAB6:    t20 = (t4 + 4);
     *((unsigned int *)t20) = 1;
     goto LAB7;
 
-LAB8:    t25 = ((char*)((ng1)));
-    t27 = (t0 + 1048U);
-    t28 = *((char **)t27);
-    memset(t26, 0, 8);
-    t27 = (t26 + 4);
-    t29 = (t28 + 4);
-    t30 = *((unsigned int *)t28);
-    t31 = (t30 >> 0);
-    *((unsigned int *)t26) = t31;
-    t32 = *((unsigned int *)t29);
-    t33 = (t32 >> 0);
-    *((unsigned int *)t27) = t33;
-    t34 = *((unsigned int *)t26);
-    *((unsigned int *)t26) = (t34 & 127U);
-    t35 = *((unsigned int *)t27);
-    *((unsigned int *)t27) = (t35 & 127U);
-    memset(t36, 0, 8);
-    xsi_vlog_unsigned_minus(t36, 32, t25, 32, t26, 32);
+LAB8:    t26 = (t0 + 1048U);
+    t27 = *((char **)t26);
+    memset(t25, 0, 8);
+    t26 = (t25 + 4);
+    t28 = (t27 + 4);
+    t29 = *((unsigned int *)t27);
+    t30 = (~(t29));
+    *((unsigned int *)t25) = t30;
+    *((unsigned int *)t26) = 0;
+    if (*((unsigned int *)t28) != 0)
+        goto LAB18;
+
+LAB17:    t35 = *((unsigned int *)t25);
+    *((unsigned int *)t25) = (t35 & 255U);
+    t36 = *((unsigned int *)t26);
+    *((unsigned int *)t26) = (t36 & 255U);
+    t37 = ((char*)((ng1)));
+    memset(t38, 0, 8);
+    xsi_vlog_unsigned_add(t38, 8, t25, 8, t37, 8);
     goto LAB9;
 
-LAB10:    t41 = (t0 + 1048U);
-    t42 = *((char **)t41);
-    memcpy(t43, t42, 8);
+LAB10:    t43 = (t0 + 1048U);
+    t44 = *((char **)t43);
     goto LAB11;
 
-LAB12:    xsi_vlog_unsigned_bit_combine(t3, 32, t36, 32, t43, 32);
+LAB12:    xsi_vlog_unsigned_bit_combine(t3, 8, t38, 8, t44, 8);
     goto LAB16;
 
-LAB14:    memcpy(t3, t36, 8);
+LAB14:    memcpy(t3, t38, 8);
     goto LAB16;
+
+LAB18:    t31 = *((unsigned int *)t25);
+    t32 = *((unsigned int *)t28);
+    *((unsigned int *)t25) = (t31 | t32);
+    t33 = *((unsigned int *)t26);
+    t34 = *((unsigned int *)t28);
+    *((unsigned int *)t26) = (t33 | t34);
+    goto LAB17;
 
 }
 
 
 extern void work_m_00000000001860319097_3069910336_init()
 {
-	static char *pe[] = {(void *)Cont_6_0};
+	static char *pe[] = {(void *)Cont_8_0};
 	xsi_register_didat("work_m_00000000001860319097_3069910336", "isim/TBGlycemiclndexCalculator_isim_beh.exe.sim/work/m_00000000001860319097_3069910336.didat");
 	xsi_register_executes(pe);
 }

@@ -1,0 +1,5 @@
+verilog work "CountingOnes.v"
+verilog work "AbsoluteCalculator.v"
+verilog work "GlycemiclndexCalculator.v"
+verilog work "TBGlycemiclndexCalculator.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

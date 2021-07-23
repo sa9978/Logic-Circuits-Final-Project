@@ -1,0 +1,28 @@
+Command line:
+   TBbloodAbnormalityDetector_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51986
+
+Thu Jul 22 18:03:53 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.34 Meg
+
+ Total Signals          : 52
+ Total Nets             : 86
+ Total Signal Drivers   : 40
+ Total Blocks           : 8
+ Total Primitive Blocks : 4
+ Total Processes        : 42
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 173
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5154.34 Meg
+
+Thu Jul 22 18:04:04 2021
+
