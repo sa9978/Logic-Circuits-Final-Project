@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/office/Desktop/jjjjjjj/final-logic-project-master/final/TBGlycemiclndexCalculator_isim_beh.exe" -prj "C:/Users/office/Desktop/jjjjjjj/final-logic-project-master/final/TBGlycemiclndexCalculator_beh.prj" "work.TBGlycemiclndexCalculator" "work.glbl" 
