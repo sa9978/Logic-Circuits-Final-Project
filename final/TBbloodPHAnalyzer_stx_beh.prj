@@ -1,4 +1,0 @@
-verilog isim_temp "decoder4x16.v"
-verilog isim_temp "bloodPHAnalyze.v"
-verilog isim_temp "TBbloodPHAnalyzer.v"
-verilog isim_temp "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

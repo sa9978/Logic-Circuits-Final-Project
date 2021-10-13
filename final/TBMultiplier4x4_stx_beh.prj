@@ -1,5 +1,0 @@
-verilog isim_temp "FulAdder.v"
-verilog isim_temp "FourBitRippleCarryAdder.v"
-verilog isim_temp "Multiplier4x4.v"
-verilog isim_temp "TBMultiplier4x4.v"
-verilog isim_temp "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

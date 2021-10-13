@@ -1,6 +1,0 @@
-verilog work "MUX4x1.v"
-verilog work "decoder4x16.v"
-verilog work "MUX2x1.v"
-verilog work "blood_type.v"
-verilog work "bloodPHAnalyze.v"
-verilog work "bloodAbnormalityDetector.v"
